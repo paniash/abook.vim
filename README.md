@@ -1,4 +1,4 @@
-## Abook.vim
+## abook.vim
 
 As mentioned on the official [website](https://abook.sourceforge.io/):
 
