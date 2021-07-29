@@ -24,5 +24,5 @@ hi def link abookTodo       Todo
 hi def link abookComment    Comment
 hi def link abookIndex      Constant
 hi def link abookSection    Type
-hi def link abookVersion    Statement
+hi def link abookVersion    PreProc
 hi def link abookNumber     Constant
