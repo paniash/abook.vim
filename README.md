@@ -10,6 +10,4 @@ As mentioned on the official [website](https://abook.sourceforge.io/):
 
 ## Contributing
 
-I wrote this plugin primarily for personal use but one is free to contribute by opening an issue or a pull request. Those are very much appreciated!
-
-This is my first time writing a syntax file and any feedback will be appreciated. :-)
+I wrote this plugin mainly for my personal use but you are free to open issues in the issue tracker or pull requests. These are much appreciated!
