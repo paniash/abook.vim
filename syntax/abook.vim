@@ -8,11 +8,11 @@ if exists("b:current_syntax")
 endif
 
 syn keyword abookSection name email
-syn keyword abookSection program version
+syn keyword abookVersion program version
 
 syn match abookNumber '[-+]\d\+\.\d*'
 syn match abookIndex '\[\d\+\]'
-syn keyword abookSection version nextgroup=abookNumber
+syn keyword abookVersion version nextgroup=abookNumber
 
 " Comments
 syn keyword abookTodo contained TODO FIXME XXX NOTE
@@ -24,4 +24,5 @@ hi def link abookTodo       Todo
 hi def link abookComment    Comment
 hi def link abookIndex      Constant
 hi def link abookSection    Type
+hi def link abookVersion    Statement
 hi def link abookNumber     Constant
