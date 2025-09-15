@@ -17,10 +17,10 @@ field birthday = Birthday, date
 field mobile = Website, string
 ```
 
-you can create a file at `after/syntax/abook.vim` to update it with your custom fields:
+you can create a file at `after/syntax/abook.vim` and add your custom fields:
 
 ```vim
-syn keyword abookSection name email birthday mobile
+syn keyword abookSection birthday mobile
 ```
 
 ## Contributing
