@@ -14,13 +14,13 @@ If you set custom fields in your `.abookrc` like:
 
 ```
 field birthday = Birthday, date
-field mobile = Website, string
+field website = Website, string
 ```
 
 you can create a file at `after/syntax/abook.vim` and add your custom fields:
 
 ```vim
-syn keyword abookSection birthday mobile
+syn keyword abookSection birthday website
 ```
 
 ## Contributing
