@@ -1,13 +1,13 @@
 " Vim syntax file
 " Language: abook addressbook
 " Maintainer: Ashish Panigrahi <ashish.panigrahi@protonmail.com>
-" Latest Revision: 29 July 2021
+" Latest Revision: 14 Sep 2025
 
 if exists("b:current_syntax")
     finish
 endif
 
-syn keyword abookSection name email
+syn keyword abookSection name email address address2 city state zip country phone workphone fax mobile nick url notes anniversary
 syn keyword abookVersion program version
 syn match abookFormat '\[format\]'
 
