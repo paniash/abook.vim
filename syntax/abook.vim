@@ -1,6 +1,6 @@
 " Vim syntax file
 " Language: abook addressbook
-" Maintainer: Ashish Panigrahi <ashish.panigrahi@protonmail.com>
+" Maintainer: Ashish Panigrahi <public@ashishpanigrahi.com>
 " Latest Revision: 14 Sep 2025
 
 if exists("b:current_syntax")
