@@ -8,6 +8,21 @@ As mentioned on the official [website](https://abook.sourceforge.io/):
 
 - Syntax highlighting for `~/.abook/addressbook`.
 
+### Custom Fields
+
+If you set custom fields in your `.abookrc` like:
+
+```
+field birthday = Birthday, date
+field mobile = Website, string
+```
+
+you can create a file at `after/syntax/abook.vim` to update it with your custom fields:
+
+```vim
+syn keyword abookSection name email birthday mobile
+```
+
 ## Contributing
 
 I wrote this plugin mainly for my personal use but you are free to open issues in the issue tracker or pull requests. These are much appreciated!
